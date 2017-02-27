@@ -1,0 +1,11 @@
+﻿  swap.cpp
+  stl_test.cpp
+  select_sort.cpp
+  print.cpp
+  main.cpp
+  insert_sort.cpp
+  heap_sort.cpp
+  正在生成代码...
+c:\users\ljx\documents\visual studio 2017\projects\sort\sort\stl_test.cpp(17): warning C4172: 返回局部变量或临时变量的地址: str
+  sort.vcxproj -> C:\Users\LJX\documents\visual studio 2017\Projects\sort\Debug\sort.exe
+  sort.vcxproj -> C:\Users\LJX\documents\visual studio 2017\Projects\sort\Debug\sort.pdb (Partial PDB)
