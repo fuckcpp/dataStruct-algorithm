@@ -1,5 +1,4 @@
 #pragma once
-#include"macro.h"
 #include"time.h"
 #include"print.h"
 #include"swap.h"

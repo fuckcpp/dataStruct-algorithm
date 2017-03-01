@@ -110,6 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="binary_search.cpp" />
     <ClCompile Include="bubble_sort.cpp" />
     <ClCompile Include="heap_sort.cpp" />
     <ClCompile Include="insert_sort.cpp" />
@@ -118,18 +119,24 @@
     <ClCompile Include="print.cpp" />
     <ClCompile Include="qsort.cpp" />
     <ClCompile Include="select_sort.cpp" />
+    <ClCompile Include="setRandArr.cpp" />
+    <ClCompile Include="sort_test.cpp" />
     <ClCompile Include="stl_test.cpp" />
     <ClCompile Include="swap.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="binary_search.h" />
     <ClInclude Include="bubble_sort.h" />
     <ClInclude Include="heap_sort.h" />
     <ClInclude Include="insert_sort.h" />
     <ClInclude Include="macro.h" />
     <ClInclude Include="merge_sort.h" />
     <ClInclude Include="print.h" />
+    <ClInclude Include="public_h.h" />
     <ClInclude Include="qsort.h" />
     <ClInclude Include="select_sort.h" />
+    <ClInclude Include="setRandArr.h" />
+    <ClInclude Include="sort_test.h" />
     <ClInclude Include="stl_test.h" />
     <ClInclude Include="swap.h" />
   </ItemGroup>

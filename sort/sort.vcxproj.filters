@@ -13,6 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="sort">
+      <UniqueIdentifier>{81a4c421-f2d9-48b6-a64c-2a33105110e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sort\sort_cpp">
+      <UniqueIdentifier>{eb5195f1-0fc6-40e0-983f-f0c0f1af423b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{b7fa3e2a-1392-4c98-8cf7-83c0d6f933af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sort\sort_h">
+      <UniqueIdentifier>{1e1c2531-ace9-48bb-ba57-0300f2a03e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="search">
+      <UniqueIdentifier>{bff78f85-4367-4b9e-a9ca-f2c2d81f7887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\public_h">
+      <UniqueIdentifier>{93d9a413-1826-4f07-a458-cca0d2cb4df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\public_c">
+      <UniqueIdentifier>{a1fbd0af-3da3-4890-b94b-4b394eb9b5b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="search\search_h">
+      <UniqueIdentifier>{7d29e2a5-4d36-4941-8746-95a9192f69f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="search\search_c">
+      <UniqueIdentifier>{c222c95c-75ce-4a1f-a990-2ec91760e610}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,61 +48,82 @@
     <ClCompile Include="stl_test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="insert_sort.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="print.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="select_sort.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="bubble_sort.cpp">
+      <Filter>sort\sort_cpp</Filter>
     </ClCompile>
     <ClCompile Include="heap_sort.cpp">
-      <Filter>源文件</Filter>
+      <Filter>sort\sort_cpp</Filter>
     </ClCompile>
-    <ClCompile Include="swap.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="bubble_sort.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="qsort.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="insert_sort.cpp">
+      <Filter>sort\sort_cpp</Filter>
     </ClCompile>
     <ClCompile Include="merge_sort.cpp">
-      <Filter>源文件</Filter>
+      <Filter>sort\sort_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="qsort.cpp">
+      <Filter>sort\sort_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="select_sort.cpp">
+      <Filter>sort\sort_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_test.cpp">
+      <Filter>sort\sort_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="print.cpp">
+      <Filter>public\public_c</Filter>
+    </ClCompile>
+    <ClCompile Include="swap.cpp">
+      <Filter>public\public_c</Filter>
+    </ClCompile>
+    <ClCompile Include="setRandArr.cpp">
+      <Filter>public\public_c</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_search.cpp">
+      <Filter>search\search_c</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stl_test.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="insert_sort.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="macro.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="print.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="select_sort.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="bubble_sort.h">
+      <Filter>sort\sort_h</Filter>
     </ClInclude>
     <ClInclude Include="heap_sort.h">
-      <Filter>头文件</Filter>
+      <Filter>sort\sort_h</Filter>
     </ClInclude>
-    <ClInclude Include="swap.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="bubble_sort.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="qsort.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="insert_sort.h">
+      <Filter>sort\sort_h</Filter>
     </ClInclude>
     <ClInclude Include="merge_sort.h">
-      <Filter>头文件</Filter>
+      <Filter>sort\sort_h</Filter>
+    </ClInclude>
+    <ClInclude Include="qsort.h">
+      <Filter>sort\sort_h</Filter>
+    </ClInclude>
+    <ClInclude Include="select_sort.h">
+      <Filter>sort\sort_h</Filter>
+    </ClInclude>
+    <ClInclude Include="sort_test.h">
+      <Filter>sort\sort_h</Filter>
+    </ClInclude>
+    <ClInclude Include="swap.h">
+      <Filter>public\public_h</Filter>
+    </ClInclude>
+    <ClInclude Include="print.h">
+      <Filter>public\public_h</Filter>
+    </ClInclude>
+    <ClInclude Include="setRandArr.h">
+      <Filter>public\public_h</Filter>
+    </ClInclude>
+    <ClInclude Include="public_h.h">
+      <Filter>public\public_h</Filter>
+    </ClInclude>
+    <ClInclude Include="binary_search.h">
+      <Filter>search\search_h</Filter>
+    </ClInclude>
+    <ClInclude Include="macro.h">
+      <Filter>public\public_h</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

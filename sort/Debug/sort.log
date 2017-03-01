@@ -1,5 +1,7 @@
 ﻿  swap.cpp
   stl_test.cpp
+  sort_test.cpp
+  setRandArr.cpp
   select_sort.cpp
   qsort.cpp
   print.cpp
@@ -10,7 +12,8 @@
   bubble_sort.cpp
 c:\users\ljx\documents\visual studio 2017\projects\sort\sort\bubble_sort.cpp(13): warning C4244: “参数”: 从“time_t”转换到“clock_t”，可能丢失数据
 c:\users\ljx\documents\visual studio 2017\projects\sort\sort\bubble_sort.cpp(35): warning C4244: “参数”: 从“time_t”转换到“clock_t”，可能丢失数据
+  binary_search.cpp
   正在生成代码...
 c:\users\ljx\documents\visual studio 2017\projects\sort\sort\stl_test.cpp(17): warning C4172: 返回局部变量或临时变量的地址: str
-  sort.vcxproj -> C:\Users\LJX\documents\visual studio 2017\Projects\sort\Debug\sort.exe
-  sort.vcxproj -> C:\Users\LJX\documents\visual studio 2017\Projects\sort\Debug\sort.pdb (Partial PDB)
+  sort.vcxproj -> C:\Users\LJX\Documents\Visual Studio 2017\Projects\sort\Debug\sort.exe
+  sort.vcxproj -> C:\Users\LJX\Documents\Visual Studio 2017\Projects\sort\Debug\sort.pdb (Partial PDB)
